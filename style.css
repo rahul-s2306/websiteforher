@@ -11,7 +11,7 @@ body{
     width: 100%;
     position: absolute;
     background-image: url(background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
    
 }
 
@@ -22,7 +22,7 @@ body{
     
     /* top: 20px; */
     position: absolute;
-    bottom: 12vh;
+    bottom: 7vh;
     animation: trackMove linear 15s infinite;
 }
 
