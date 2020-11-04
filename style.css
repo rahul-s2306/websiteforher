@@ -14,6 +14,17 @@ body{
     background-repeat: repeat-x;
    
 }
+.airship{
+    height: 120px;
+    background-image: url(airship.png);
+    width: 200px;
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 10vh;
+    right: 0;
+    animation: trackMove linear 50s infinite;
+}
 
 .trees{
     height: 76vh;
